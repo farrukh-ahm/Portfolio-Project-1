@@ -87,7 +87,7 @@ h1 {color: #f44336;
                 width: 50%;
                 background-color: #F4F4F3;
                 border-radius: 10px;
-                box-shadow: 2px 2px 5px #36454F;
+                box-shadow: 5px 5px 10px #36454F;
                 margin: auto;
 }
 
@@ -133,7 +133,7 @@ h1 {color: #f44336;
         width: 50%;
         background-color: #8DCCEA;
         border-radius: 10px;
-        box-shadow: 2px 2px 5px #36454F;
+        box-shadow: 5px 5px 10px #36454F;
         margin: auto;}
 
 .mid-div > h2 {
