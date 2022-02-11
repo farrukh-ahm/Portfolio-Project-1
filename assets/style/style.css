@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Quintessential&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&family=Roboto+Condensed&family=Zen+Kaku+Gothic+Antique&display=swap');
 
 *{margin: 0;
   padding: 0;
@@ -6,7 +6,7 @@
 }
 
 body {background-color: #2A7EC7;
-      font-family: 'Abril Fatface', cursive;
+      font-family: 'Zen Kaku Gothic Antique', sans-serif;
       color: #303030;
 }
 
@@ -28,7 +28,7 @@ header {width: 100%;
 h1 {color: #f44336;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 300%;
-    font-weight: 700px;
+    font-weight: 700;
     float: left;
     margin-left: 20px;
     line-height: 75px;
@@ -84,7 +84,7 @@ h1 {color: #f44336;
 
 .top-bottom-div {height: 500px;
                 width: 50%;
-                background-color: white;
+                background-color: #F4F4F3;
                 border-radius: 10px;
                 box-shadow: 2px 2px 5px #36454F;
                 margin: auto;
@@ -103,16 +103,16 @@ h1 {color: #f44336;
                vertical-align: middle;
 }
 
-.content-body > img {height: 200px;
-                     width: 200px;
+.content-body > img {height: 300px;
+                     width: 300px;
                      border-radius: 50%;
                      float: left;
                      position: absolute;
-                     left: 5%;
-                     top: 25%;
+                     left: 5px;
+                     top: 2rem;
 }
 
-.content-body > p {text-align: center;
+.content-body > p {text-align: right;
                    height: 90%;
                    width: 60%;
                    float: right;
@@ -122,7 +122,20 @@ h1 {color: #f44336;
                    font-size: 80%;
                    /* background-color: #efebdd; */
                    line-height: 30px;
-                   /* letter-spacing: 1px; */
+                   font-weight: 700;
                    
 
+}
+
+/* Architecture section */ 
+.mid-div {height: 500px;
+        width: 50%;
+        background-color: #8DCCEA;
+        border-radius: 10px;
+        box-shadow: 2px 2px 5px #36454F;
+        margin: auto;}
+
+.mid-div > h2 {
+        text-align: center;
+        margin-top: 5px;
 }
