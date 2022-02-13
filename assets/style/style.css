@@ -264,9 +264,9 @@ i {font-size: 200%;}
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1200px) {
-        #banner-wrapper {height: 400px;
-                overflow: hidden;
-                position: relative;
+#banner-wrapper {height: 400px;
+                 overflow: hidden;
+                 position: relative;
                 /* background-color: #975fb7; */
 }
 #banner-container {background-position: center center;
@@ -356,4 +356,87 @@ table {width: 45%;
        /* background-color: #e6bb21; */
        margin: 20px auto;
  }
+}
+
+@media screen and (max-width: 800px) {
+
+header {display: block;
+        text-align: center;
+        height: 130px;
+}
+h1 {float: none;
+    margin: auto;
+    line-height: 50px;
+    padding-top: 10px;
+    /* background-color: aqua; */
+    }
+
+#link-wrapper { float: none;
+                margin: auto;
+                line-height: 50px;
+                position: relative;
+                /* background-color: #f44336; */
+} 
+#banner-wrapper {height: 235px;
+                margin-top: 20px;
+                /* background-color: #975fb7; */
+}
+#banner-container {background-position: center center;
+                   background-size: 170%;        
+                }        
+.content-wrapper{height: 1000px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        /* background-color: #303030; */
+}
+
+.top-bottom-div {height: 800px;
+        width: 100%;
+        margin: auto;
+}
+
+.content-body > p {text-align: center;
+        height: 60%;
+        width: 100%;
+        margin: 10px auto;
+        font-size: 90%;
+        /* background-color: #efebdd; */
+        line-height: initial;
+        font-weight: 500;
+        padding: 0 10px;
+}
+
+.mid-div {height: 700px;
+        width: 100%;
+        margin: auto;
+}
+
+#location-container {width: 100%;
+        /* background-color: #f44336; */
+}
+
+#location-container > p {
+        text-align: left;
+        width: 40%;
+        line-height: 25px;
+        margin: auto;
+        padding: 10px;
+        font-weight: 500;
+        float: none;
+        /* background-color: #36454F; */
+}
+table {width: 50%;
+        float: none;
+        padding: 5px;
+        /* background-color: #e6bb21; */
+        margin: 20px auto;
+        text-align: center;
+        font-size: 90%;
+  }
+
+  td {padding: initial;
+    }
+th {line-height: 30px;
+    margin: auto;}
 }
