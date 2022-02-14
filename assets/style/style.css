@@ -441,3 +441,27 @@ table {width: 50%;
 th {line-height: 30px;
     margin: auto;}
 }
+
+@media screen and (max-width: 400px) {
+        #banner-wrapper {height: 200px;
+                margin-top: 20px;
+                /* background-color: #975fb7; */
+}
+        #banner-container {background-position: center center;
+                background-size: 150%;        
+             }    
+        
+        .content-wrapper{height: 800px;
+                /* background-color: #303030; */
+        }
+        .top-bottom-div {height: 700px;
+                        width: 100%;
+                        margin: auto;
+        }
+
+        .mid-div {height: 700px;}
+        
+        .content-body > p {font-size: 80%;}        
+
+        #map-wrapper {height: 200px;}
+}
