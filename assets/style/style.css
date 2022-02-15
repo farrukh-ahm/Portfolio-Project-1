@@ -264,24 +264,32 @@ i {font-size: 200%;}
 
 /* FORM PAGE */
 
-.form-page {background-color:  #f5f5f5;}
+.form-page {position: relative;}
+.form-page::after {
+        background: url("../images/architecture\ \(jan\ canty\,\ unsplash\).jpg") no-repeat center center;
+        background-size: cover;
+        content: "";
+        opacity: 0.8;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        z-index: -1;   
+      }
 #form-wrapper {width: 100%;
             height: 1200px;
             margin: auto;
             display: flex;
             justify-content: center;
-            background: url("../images/architecture\ \(jan\ canty\,\ unsplash\).jpg") no-repeat center center;
-            background-size: cover;
-            opacity: 0.5;
-            /* background-color: gold; */
 }
 
 #tour-form { width: 50%;
              height: 90%;
              margin: auto;
              padding: 30px 30px 0 30px;
-             background-color: aqua;
-             /* color: #f44336; */
+             background-color: rgba(48, 48, 48, 0.8);
+             color: #f5f5f5;
              border-radius: 10px;
              font-size: 130%;
              /* display: block;
@@ -296,21 +304,34 @@ label {margin-left: 10px;
 .form-input {display: block;
              width: 80%;
              height: 30px;
+             letter-spacing: 2px;
              margin: 5px 0 20px 10px;
+             padding-left: 5px;
              background-color: transparent;
              font-size: 80%;
-             border: 1px solid #303030;   
+             border: 1px solid #f5f5f5;
+             border-radius: 5px;
+             color: #aca7cb;   
+}
+
+.form-input:hover {background-color: #303030;
+                   box-shadow: 1px 1px 1px #f5f5f5;
 }
 
 .select-box {margin-top: 10px;
              margin-left: 10px;
-             height: 25px;
+             height: 30px;
              padding: 2px;
              display: block;
-             /* border-radius: 2px;*/
+             background-color: rgba(48, 48, 48, 0.8);
+             color: #aca7cb;
+             font-size: 80%;
+             border-radius: 5px;
 }
 
-#dates-field {width: 80%;
+.select-box:hover {box-shadow: 1px 1px #f5f5f5;}
+
+#dates-field {width: 100%;
               height: 15%;
               border: none;
               /* background-color: #f44336; */
@@ -320,10 +341,20 @@ legend {margin: 20px 0 0 10px;
 }
 
 .dates {background-color: transparent;
-        border: 1px solid #303030;
+        border: 1px solid #f5f5f5;
+        border-radius: 5px;
         height: 25px;
-        margin: 40px 0 0 10px
+        width: 15%;
+        letter-spacing: 2px;
+        margin: 20px 0 0 10px;
+        padding-left: 8px;
+        padding-bottom: 2px;
+        color: #aca7cb;
+        font-size: 80%;
 }
+
+.dates:hover {background-color: #303030;
+              box-shadow: 1px 1px 1px #f5f5f5;}
 
 #button-box {display: flex;
              height: 50px;
@@ -333,26 +364,38 @@ legend {margin: 20px 0 0 10px;
              margin: 20px 0 0 10px;
 }
 .button {height: 30px;
-        width: 60px;
+        width: 65px;
         display: inline-block;
         margin: 5px 20px 0 0;
         font-size: 80%;
-        padding: 2px;
+        /* padding: 5px; */
         text-align: center;
+        background-color: #f5f5f5;
+        border: 3px solid #aca7cb;
+        border-radius: 5px;
+        color: #303030;
+}
+
+.button:hover {background-color: #aca7cb;
 }
 
 .request-box {display: block;
               height: 30%;
               width: 60%;
               margin: 10px 0 10px 10px;
+              padding: 5px;
               opacity: 0.7;
               font-size: 120%;
-              /* color: #f44336; */
               overflow-y: auto;
               resize: none;
-              border: 1px solid #303030;
+              border: 1px solid #f5f5f5;
               border-radius: 5px;
+              background-color: rgba(48, 48, 48, 0.8);
+              color: #aca7cb;
 }
+
+.request-box:hover {box-shadow: 1px 1px 1px #f5f5f5;}
+
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 1280px) {
