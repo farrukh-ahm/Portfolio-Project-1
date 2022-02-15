@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./assets/style/style.css">
     <title>Red Fort</title>
 </head>
-<body>
+<body class="form-page">
     <header>
         <h1>Red Fort</h1>
         <ul id="link-wrapper">
@@ -30,19 +30,20 @@
     </section>
     <section id="form-wrapper">
         <form action="" method="POST" id="tour-form">
-           <label for="fname">First Name</label>
-           <input type="text" id="fname" class="form-input" name="first_name" required>
-           <label for="lname">Last Name</label>
-           <input type="text" name="last_name" id="lname" class="form-input" required>
-           <label for="email">Email ID</label>
-           <input type="email" id="email" name="email-id" class="form-input" required>
-           <label for="group-size">Group Size</label>
-           <select name="group-size" id="group-size">
-               <option value="" selected>Small (3 or less)</option>
-               <option value="">Medium (4-10)</option>
-               <option value="">Large (11-20)</option>
-               <option value="">Field Trip (20+)</option>
-           </select>
+            <h2>Book a Tour</h2>
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" class="form-input" name="first_name" required>
+            <label for="lname">Last Name</label>
+            <input type="text" name="last_name" id="lname" class="form-input" required>
+            <label for="email">Email ID</label>
+            <input type="email" id="email" name="email-id" class="form-input" required>
+            <label for="group-size">Group Size</label>
+            <select name="group-size" id="group-size" class="select-box">
+                <option value="" selected>Small (3 or less)</option>
+                <option value="">Medium (4-10)</option>
+                <option value="">Large (11-20)</option>
+                <option value="">Field Trip (20+)</option>
+            </select>
             <fieldset id="dates-field">
                 <legend>Date of visit</legend>
                 <label for="day">Day</label>
@@ -52,7 +53,12 @@
                 <label for="year">Year</label>
                 <input type="text" name="year" id="year" class="dates" required>
             </fieldset>
-            <button type="submit">Book!</button>
+            <label for="request">Other Requests:</label>
+            <textarea name="other-requests" id="request" cols="" rows="" class="request-box"></textarea>
+            <div id="button-box">
+                <input type="submit" value="Book!" class="button">
+                <input type="reset" value="Cancel" class="button">
+            </div>
         </form>
     </section>
     <footer id="footer-wrapper">
