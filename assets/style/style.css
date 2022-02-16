@@ -620,7 +620,14 @@ th {line-height: 30px;
     margin: auto;}
 }
 
+#button-box {width: 50%;
+        /* background-color: #303030;*/} 
+.button {width: 70px;}
+
 @media screen and (max-width: 450px) {
+
+        .links:not(:last-child)::after{margin-left: initial;
+}
         #banner-wrapper {height: 200px;
                 margin-top: 20px;
                 /* background-color: #975fb7; */
