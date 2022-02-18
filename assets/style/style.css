@@ -259,6 +259,11 @@ th {margin-bottom: 5px;
 
 i {font-size: 200%;}
 
+/* OTHER PLACES PAGE */
+
+.back {background-color: #747f51;}
+.mid {background-color: #edf5ce;}
+
 /* FORM PAGE */
 
 .form-page {position: relative;}
