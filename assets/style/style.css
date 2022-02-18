@@ -681,3 +681,55 @@ th {line-height: 30px;
 
 #submission-container {width: 100%;}
 }
+
+@media screen and (max-width: 450px) and (-webkit-device-pixel-ratio : 3) {
+        .links:not(:last-child)::after{margin-left: initial;
+        }
+                #banner-wrapper {height: 200px;
+                        margin-top: 20px;
+                        /* background-color: #975fb7; */
+        }
+                #banner-container {background-position: center center;
+                        background-size: 150%;        
+                     }    
+                
+                .content-wrapper{height: 800px;
+                        /* background-color: #303030; */
+                }
+                .top-bottom-div {height: 700px;
+                                width: 100%;
+                                margin: auto;
+                }
+        
+                .mid-div {height: 700px;}
+                
+                .content-body > p {font-size: 80%;}        
+        
+                #map-wrapper {height: 200px;}
+        
+                #tour-form {width: 100%;
+                        padding: 10px 0 0 0;
+                }
+                .form-input {width: 90%}
+                #dates-field {display: block;}
+                fieldset > input:first-of-type {width: 20%}
+                fieldset > input:nth-of-type(2) {width: 35%;}
+                fieldset > input:nth-of-type(3) {width: 20%;
+                                                margin-left: 5px;
+                }
+        
+                .request-box {width: 90%}
+        
+                #button-box {width: 90%;
+                        justify-content: left;
+                        /* background-color: #303030; */
+                        margin: 30px 0 0 10px;
+           }
+        
+           .button {margin: 5px 40px 0 0;
+                /* background-color: #aca7cb;
+                color: #303030; */
+        }
+        
+        #submission-container {width: 100%;}
+}
