@@ -446,6 +446,12 @@ h3 {margin-top: 30px;
 }
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1445px){
+        .top-bottom-div {width: 70%;}
+
+        .mid-div {width: 70%;}
+}
+
 @media screen and (max-width: 1280px) {
 #banner-wrapper {height: 400px;
                  overflow: hidden;
