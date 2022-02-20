@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-body {background-color: #9e8466;
+body {background-color: #494454;
       font-family: 'Zen Kaku Gothic Antique', sans-serif;
       color: #303030;
 }
@@ -148,7 +148,7 @@ h1 {color: #f44336;
 /* Architecture section */ 
 .mid-div {height: 500px;
         width: 50%;
-        background-color: #ffe9d0;
+        background-color: #f2ecff;
         border-radius: 10px;
         box-shadow: 5px 5px 10px #36454F;
         margin: auto;}
