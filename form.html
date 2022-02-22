@@ -12,17 +12,19 @@
 <body class="form-page">
     <header>
         <h1>Red Fort</h1>
-        <ul id="link-wrapper">
-            <li class="links">
-                <a href="index.html">Home</a>
-            </li>
-            <li class="links">
-                <a href="other-places.html">Other Places</a>
-            </li>
-            <li class="links">
-                <a href="form.html" class="active">Book a Tour</a>
-            </li>
-        </ul>
+        <nav>
+            <ul id="link-wrapper">
+                <li class="links">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="links">
+                    <a href="other-places.html">Other Places</a>
+                </li>
+                <li class="links">
+                    <a href="form.html" class="active">Book a Tour</a>
+                </li>
+            </ul>
+        </nav>
     </header>
     <section id="banner-wrapper">
         <div id="banner-container">
@@ -45,9 +47,9 @@
                 <option value="">Field Trip (20+)</option>
             </select>
             <fieldset id="dates-field">
-                <legend>Date of visit</legend>
-                <label for="day">Day</label>
-                <input type="text" name="day" id="day" class="dates" required>
+                <legend>Day of visit</legend>
+                <label for="date">Date</label>
+                <input type="text" name="date" id="date" class="dates" required>
                 <label for="month">Month</label>
                 <input type="text" name="month" id="month" class="dates" required>
                 <label for="year">Year</label>

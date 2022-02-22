@@ -40,8 +40,9 @@ h1 {color: #f44336;
                margin-right: 20px;
                /* display: flex; */
                list-style: none;
-               line-height: 20px;
+               /* line-height: 20px; */
                position: relative;
+               /* background-color: #747f51; */
 }
 
 .links {display: inline-block;
@@ -76,6 +77,13 @@ h1 {color: #f44336;
                    opacity: 0.7;
                    height: 100%;
                    width: 100%;
+}
+
+#banner-container-two {background: url("../images/banner-second-page.jpg") no-repeat center center;
+                        background-size: cover;
+                        opacity: 0.7;
+                        height: 100%;
+                        width: 100%;
 }
 
 /* #banner-container > img{width: 100%;
@@ -461,6 +469,7 @@ h3 {margin-top: 30px;
 #banner-container {background-position: center center;
                    /* background-size: cover;*/} 
 
+#banner-container-two {background-position: center center;}
 .content-wrapper{height: 1000px;
                 width: 100%;
                 display: flex;
@@ -561,7 +570,9 @@ h1 {float: none;
 
 #link-wrapper { float: none;
                 margin: auto;
-                line-height: 50px;
+                display: flex;
+                justify-content: center;
+                /* line-height: 50px; */
                 position: relative;
                 /* background-color: #f44336; */
 }
@@ -570,7 +581,7 @@ h1 {float: none;
                 margin-top: 20px;
                 /* background-color: #975fb7; */
 }
-#banner-container {background-position: top left;
+#banner-container {background-position: center center;
                    background-size: cover;        
                 }        
 .content-wrapper{height: 1000px;
@@ -638,10 +649,28 @@ th {line-height: 30px;
 
 @media screen and (max-width: 450px) {
 
-        .links:not(:last-child)::after{margin-left: initial;
+        /* .links:not(:last-child)::after{margin-left: initial;
+}        */
+        #link-wrapper {/*background-color: #747f51;*/
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
+        }
+        .links {/*background-color: #36454F; */
+        width: 33%;
+        line-height: 40px;
+        margin: auto;
+}
+        .links > a {letter-spacing: initial;
+                        font-size: 90%;
+        }
+        .links:not(:last-child)::after{content: "";
+                border-right: none;
+                margin-left: initial;
+                padding: initial;
 }
         #banner-wrapper {height: 200px;
-                margin-top: 20px;
+                margin-top: 10px;
                 /* background-color: #975fb7; */
 }
         #banner-container {background-position: center center;
@@ -677,14 +706,15 @@ th {line-height: 30px;
 
         #button-box {width: 90%;
                 justify-content: left;
-                /* background-color: #303030; */
+                background-color: #303030;
                 margin: 30px 0 0 10px;
-   }
+        }
 
-   .button {margin: 5px 40px 0 0;
+        .button {margin: 5px 40px 0 0;
+                border-radius: 2px;
         /* background-color: #aca7cb;
         color: #303030; */
-}
+        }
 
-#submission-container {width: 100%;}
+        #submission-container {width: 100%;}
 }
