@@ -647,6 +647,11 @@ th {line-height: 30px;
         /* background-color: #303030;*/} 
 .button {width: 70px;}
 
+@media screen and (max-width: 580px) {
+        .top-bottom-div {height: 650px;}
+        .mid-div {height: 650px;}
+        }
+
 @media screen and (max-width: 450px) {
 
         /* .links:not(:last-child)::after{margin-left: initial;
