@@ -114,6 +114,11 @@ h1 {color: #f44336;
         margin-top: 5px;
 }
 
+.top-bottom-div:hover{position: relative;
+                      bottom: 1px;
+                      right: 1px;
+                      box-shadow: 5px 5px 10px 2px #36454F}
+
 .content-body {position: relative;
                width: 100%;
                height: 80%;
@@ -160,6 +165,11 @@ h1 {color: #f44336;
         border-radius: 10px;
         box-shadow: 5px 5px 10px #36454F;
         margin: auto;}
+
+.mid-div:hover {position: relative;
+        bottom: 1px;
+        right: 1px;
+        box-shadow: 5px 5px 10px 2px #36454F}
 
 .mid-div > h2 {
         text-align: center;
