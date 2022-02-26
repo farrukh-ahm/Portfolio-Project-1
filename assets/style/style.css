@@ -381,12 +381,12 @@ legend {margin: 20px 0 0 10px;
         /* padding: 5px; */
         text-align: center;
         background-color: #f5f5f5;
-        border: 3px solid #aca7cb;
+        /* border: 3px solid #aca7cb; */
         border-radius: 5px;
         color: #303030;
 }
 
-.button:hover {background-color: #aca7cb;
+.button:hover {background-color: #FFFDD0;
 }
 
 .request-box {display: block;
