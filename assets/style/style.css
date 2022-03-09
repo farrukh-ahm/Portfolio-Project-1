@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+                /* GENERAL STYLING */
 
 body {background-color: #161516;
       font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -18,14 +19,13 @@ h2 {font-family: 'Quintessential', cursive;
         color: #f44336;
         padding-top: 10px;
 }
-/* header section */
+
+                /* HEADER SECTION */
 header {width: 100%;
         height: 100px;
         position: relative;
-        /* display: flex;
-        justify-content: center; */
-        /* background-color: #303030; */
 }
+
 h1 {color: #f44336;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 300%;
@@ -38,11 +38,8 @@ h1 {color: #f44336;
 
 #link-wrapper {float: right;
                margin-right: 20px;
-               /* display: flex; */
                list-style: none;
-               /* line-height: 20px; */
                position: relative;
-               /* background-color: #747f51; */
 }
 
 .links {display: inline-block;
@@ -65,13 +62,14 @@ h1 {color: #f44336;
                  border-bottom: 1px solid;
 }
 
-/* Page Banner */
+                        
+                        /* PAGE BANNER */
+
 #banner-wrapper {width: 100%;
                  height: 700px;
                  overflow: hidden;
-                 /* position: relative; */
-                 /* background-color: #975fb7; */
 }
+
 #banner-container {background: url("../images/banner-edit.jpg") no-repeat center center;
                    background-size: cover;
                    opacity: 0.7;
@@ -90,12 +88,15 @@ h1 {color: #f44336;
               text-align: center;
               font-size: 120%;}
 
-/* history section */
+
+                /* INDEX PAGE STYLING */
+
+                /* history section */
+
 .content-wrapper{height: 43.75rem; /* 700px */
                  width: 100%;
                  display: flex;
                  justify-content: center;
-                 /* background-color: #303030; */
 }
 
 .top-bottom-div {height: 31.25rem; /* 500 px */
@@ -119,34 +120,23 @@ h1 {color: #f44336;
 .content-body {position: relative;
                width: 100%;
                height: 80%;
-               /* background-color: turquoise; */
                margin: 20px auto;
                display: flex;
                justify-content: center;
                align-content: center;
-               /* vertical-align: middle; */
 }
 
 .content-body > img {height: 300px;
                      width: 300px;
                      border-radius: 50%;
                      margin: auto;
-                     /* float: left; */
-                     /* position: absolute;
-                     left: 5px;
-                     top: 2rem; */
 }
 
 .content-body > p {text-align: justify;
                    height: 90%;
                    width: 60%;
                    padding-right: 10px;
-                   /* float: right; */
-                   /* position: absolute;
-                   right: 10px;
-                   top: 5%; */
                    font-size: 80%;
-                   /* background-color: #efebdd; */
                    line-height: 25px;
                    font-weight: 700;
                    margin: auto;
@@ -155,7 +145,9 @@ h1 {color: #f44336;
 
 .line-space > p {line-height: 30px;}
 
-/* Architecture section */ 
+
+                        /* Architecture section */ 
+
 .mid-div {height: 500px;
         width: 50%;
         background-color: #bebdbe;
@@ -173,7 +165,8 @@ h1 {color: #f44336;
         margin-top: 5px;
 }
 
-/* Location Section */
+                        
+                         /* Location Section */
 
 #visit-us {width: 100%;
            height: 500px;           
@@ -187,7 +180,6 @@ h1 {color: #f44336;
 #location-container {width: 50%;
                      height: 300px;
                      margin: auto;
-                     /* background-color: #f44336; */
                      padding: 35px 0;
 }
 
@@ -201,23 +193,19 @@ h1 {color: #f44336;
                          font-weight: 600;
                          float: left;
                          color: #f5f5f5;
-                         /* background-color: #efebdd; */
 }
 
 table {width: 33%;
        float: right;
        border-collapse: collapse;
-       /* background-color: #efebdd; */
        line-height: 40px;
        margin-top: 20px;
 }
 
 td {padding: 8px;
     border: 1px solid #f5f5f5;
-    /* text-align: center; */
     vertical-align: middle;
     color: #f5f5f5;
-    /* box-shadow: 2px 2px 2px #f5f5f5; */
 }
 
 th {margin-bottom: 5px;
@@ -225,7 +213,7 @@ th {margin-bottom: 5px;
     color: #f5f5f5;
 }
 
-/* Map section */
+                                /* Map section */
 
 #map-wrapper {height: 300px;
               width: 100%;
@@ -238,12 +226,11 @@ th {margin-bottom: 5px;
       opacity: 0.8;
 }
 
-/* Footer */
+                                /* Footer */
 
 #footer-wrapper {width: 100%;
                  height: 100px;
                  background-color: #f44336;;
-                 /* opacity: 0.4; */
 }
 
 #footer-div {width: 50%;
@@ -251,7 +238,6 @@ th {margin-bottom: 5px;
              margin: auto;
              display: flex;
              justify-content: center;
-             /* background-color: #8DCCEA; */
 }
 
 #footer-div > ul {list-style: none;
@@ -261,29 +247,30 @@ th {margin-bottom: 5px;
                   display: flex;
                   justify-content: center;
                   align-items: center;
-                  /* background-color: #f44336;       */
 }
 
 #footer-div > ul> li {display: inline-block;
                       padding: 2px;
                       margin: 10px;
-                      /* background-color: #efebdd; */
-                      /* width: 50px;
-                      height: 50px; */
 }
 
 i {font-size: 200%;}
 
-/* OTHER PLACES PAGE */
+                                                
+                                                /* OTHER PLACES PAGE */
+
 
 #places-to-visit {margin: 30px 0 0 0;
                   text-align: center;
                   font-size: 120%;
-                  /* background-color: #aca7cb; */
 }
-/* FORM PAGE */
+
+
+                                                /* FORM PAGE */
 
 .form-page {position: relative;}
+
+                /* code used from external source. Credit in README.MD file */
 .form-page::after {
         background: url("../images/architecture\ \(jan\ canty\,\ unsplash\).jpg") no-repeat center center;
         background-size: cover;
@@ -296,6 +283,8 @@ i {font-size: 200%;}
         left: 0;
         z-index: -1;   
       }
+                /* ------------------------------------------------------------ */
+
 #form-wrapper {width: 100%;
             height: 1200px;
             margin: auto;
@@ -311,8 +300,6 @@ i {font-size: 200%;}
              color: #f5f5f5;
              border-radius: 10px;
              font-size: 130%;
-             /* display: block;
-             text-align: justify; */
 }
 
 #tour-form > h2 {text-align: center;
@@ -353,7 +340,6 @@ label {margin-left: 10px;
 #dates-field {width: 100%;
               height: 15%;
               border: none;
-              /* background-color: #f44336; */
 }
 
 legend {margin: 20px 0 0 10px;
@@ -379,7 +365,6 @@ legend {margin: 20px 0 0 10px;
              height: 50px;
              width: 20%;
              justify-content: left;
-             /* background-color: #303030; */
              margin: 20px 0 0 10px;
 }
 .button {height: 30px;
@@ -387,10 +372,8 @@ legend {margin: 20px 0 0 10px;
         display: inline-block;
         margin: 5px 20px 0 0;
         font-size: 80%;
-        /* padding: 5px; */
         text-align: center;
         background-color: #f5f5f5;
-        /* border: 3px solid #aca7cb; */
         border-radius: 5px;
         color: #303030;
 }
@@ -415,7 +398,9 @@ legend {margin: 20px 0 0 10px;
 
 .request-box:hover {box-shadow: 1px 1px 1px #f5f5f5;}
 
-/* DUMMY FORM SUBMISSION PAGE */
+
+
+                                        /* DUMMY FORM SUBMISSION PAGE */
 
 #form-dump {width: 100%;
             height: 1200px;
@@ -461,7 +446,11 @@ h3 {margin-top: 30px;
 
 #submission-container > a > button:hover {background-color: #aca7cb;
 }
-/* MEDIA QUERIES */
+
+
+
+                                                /* MEDIA QUERIES */
+
 
 @media screen and (max-width: 1445px){
         .top-bottom-div {width: 70%;}
@@ -473,27 +462,23 @@ h3 {margin-top: 30px;
 #banner-wrapper {height: 400px;
                  overflow: hidden;
                  position: relative;
-                /* background-color: #975fb7; */
 }
 #banner-container {background-position: center center;
-                   /* background-size: cover;*/} 
+                   } 
 
 #banner-container-two {background-position: center center;}
 .content-wrapper{height: 1000px;
                 width: 100%;
                 display: flex;
                 justify-content: center;
-                /* background-color: #303030; */
        }
 .top-bottom-div {height: 700px;
                 width: 90%;
                 margin: auto;
         }
 .content-body { display: block;
-                /* position: relative; */
                 width: 100%;
                 height: 90%;
-                /* background-color: turquoise; */
                 margin: 25px auto;
                 text-align: center;
         }
@@ -501,21 +486,14 @@ h3 {margin-top: 30px;
 .content-body > img {height: 200px;
                 width: 200px;
                 border-radius: 50%;
-                /* display: block; */
                 margin: 10px auto;
-                /* float: none;
-                position: initial; */
                 }
 
 .content-body > p {text-align: center;
                    height: 60%;
                    width: 80%;
-                   /* display: block; */
-                   /* position: initial;
-                   float: none; */
                    margin: 10px auto;
                    font-size: 90%;
-                   /* background-color: #efebdd; */
                    line-height: 30px;
                    font-weight: 700;
         
@@ -530,17 +508,13 @@ h3 {margin-top: 30px;
 #location-container {width: 90%;
                      height: 350px;
                      margin: auto;
-                     /* background-color: #f44336; */
                      padding: 35px 0;
                      display: flex;
                      justify-content: center;
                      align-items: center;
-                     /* vertical-align: middle; */
 }
 
-#location-container > p {/*display: flex;
-        justify-content: center;
-        vertical-align: middle; */
+#location-container > p {
         text-align: left;
         width: 40%;
         line-height: 40px;
@@ -548,13 +522,11 @@ h3 {margin-top: 30px;
         padding: 10px;
         font-weight: 700;
         float: none;
-        /* background-color: #36454F; */
 }
 
 table {width: 45%;
        float: none;
        padding: 5px;
-       /* background-color: #e6bb21; */
        margin: 20px auto;
  }
 
@@ -574,21 +546,17 @@ h1 {float: none;
     margin: auto;
     line-height: 50px;
     padding-top: 10px;
-    /* background-color: aqua; */
     }
 
 #link-wrapper { float: none;
                 margin: auto;
                 display: flex;
                 justify-content: center;
-                /* line-height: 50px; */
                 position: relative;
-                /* background-color: #f44336; */
 }
 
 #banner-wrapper {height: 300px;
                 margin-top: 20px;
-                /* background-color: #975fb7; */
 }
 #banner-container {background-position: center center;
                    background-size: cover;        
@@ -597,7 +565,6 @@ h1 {float: none;
         width: 100%;
         display: flex;
         justify-content: center;
-        /* background-color: #303030; */
 }
 
 .top-bottom-div {height: 600px;
@@ -610,7 +577,6 @@ h1 {float: none;
         width: 100%;
         margin: 10px auto;
         font-size: 90%;
-        /* background-color: #efebdd; */
         line-height: initial;
         font-weight: 500;
         padding: 10px 10px;
@@ -624,7 +590,6 @@ h1 {float: none;
 }
 
 #location-container {width: 100%;
-        /* background-color: #f44336; */
 }
 
 #location-container > p {
@@ -635,12 +600,10 @@ h1 {float: none;
         padding: 10px;
         font-weight: 500;
         float: none;
-        /* background-color: #36454F; */
 }
 table {width: 50%;
         float: none;
         padding: 5px;
-        /* background-color: #e6bb21; */
         margin: 20px auto;
         text-align: center;
         font-size: 90%;
@@ -652,8 +615,8 @@ th {line-height: 30px;
     margin: auto;}
 }
 
-#button-box {width: 50%;
-        /* background-color: #303030;*/} 
+#button-box {width: 50%;}
+
 .button {width: 70px;}
 
 @media screen and (max-width: 580px) {
@@ -663,37 +626,40 @@ th {line-height: 30px;
 
 @media screen and (max-width: 450px) {
 
-        /* .links:not(:last-child)::after{margin-left: initial;
-}        */
-        #link-wrapper {/*background-color: #747f51;*/
+        #link-wrapper {
                         display: flex;
                         justify-content: center;
                         margin-top: 20px;
         }
-        .links {/*background-color: #36454F; */
+        
+        .links {
         width: 33%;
         line-height: 40px;
         margin: auto;
-}
+        }
+        
         .links > a {letter-spacing: initial;
                         font-size: 90%;
         }
+        
         .links:not(:last-child)::after{content: "";
                 border-right: none;
                 margin-left: initial;
                 padding: initial;
-}
+        }
+        
         #banner-wrapper {height: 200px;
                 margin-top: 10px;
-                /* background-color: #975fb7; */
-}
+        }
+        
         #banner-container {background-position: center center;
                 background-size: 150%;        
              }    
         
+        
         .content-wrapper{height: 800px;
-                /* background-color: #303030; */
         }
+        
         .top-bottom-div {height: 700px;
                         width: 100%;
                         margin: auto;
@@ -720,14 +686,11 @@ th {line-height: 30px;
 
         #button-box {width: 90%;
                 justify-content: left;
-                /* background-color: #303030; */
                 margin: 30px 0 0 10px;
         }
 
         .button {margin: 5px 40px 0 0;
                 border-radius: 2px;
-        /* background-color: #aca7cb;
-        color: #303030; */
         }
 
         #submission-container {width: 100%;}
