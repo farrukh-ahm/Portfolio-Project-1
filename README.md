@@ -2,7 +2,7 @@
 
 [View The Live Project Here](https://farrukh-ahm.github.io/Portfolio-Project-1/)
 
-This is a promotional website for the monument Red Fort, situated in Delhi, India. 
+This is a promotional website for the monument Red Fort, situated in Delhi, India, to boost Delhi Tourism. 
 This website aims at providing basic information about the place, its location and entice the tourists to visit. 
 It also aims at providing an option to the visitors to book a guided tour for a more ineteractive and eduactional experience.
 
@@ -18,7 +18,7 @@ It also aims at providing an option to the visitors to book a guided tour for a 
        -   Through the navigation bar, the user can easily move around and take full advantage of all the features provided by the website.
 
 
-        <img src="./assets/images-readme-file/nav bar.JPG" alt="Image of the Navigation Bar">   
+        <img src="./assets/images-readme-file/nav bar.JPG" alt="Image of the Navigation Bar">
 
    2. #### The Landing Page Image
     
@@ -58,4 +58,39 @@ It also aims at providing an option to the visitors to book a guided tour for a 
         - It is dispalyed on all the pages of the website.
 
         <img src="./assets/images-readme-file/footer.JPG">
+    
+   6. #### Other Places Page
+        - This page provides the visitors to website with more option of places they can visit while in Delhi, to help further boost the Delhi Tourism.
+        - There are 4 information cards with the names of the monuments and brief description of the historical structures, some in close proximity of the Red Fort itself.
+
+        <img src="./assets/images-readme-file/other places.JPG">
+
+   7. #### Book a Tour
+        - For tourists/visitors who want to experience a more detalied and entertaining tour of the Red Fort, they can opt for a guided tour throu the form provided on this page.
+        - It's easy to fill and book, the users are notified with a confirmation message on a new page, and they can easily navigate back vis Home button provided below the message or through the navigation bar.
+        - For now, the form dump page is a dummy, and uses GET method instead of POST. It's just for the demo purposes.
+
+        <img src="./assets/images-readme-file/form page.JPG">
         
+## Technologies Used
+
+### Languages Used
+
+-   [HTML5](https://en.wikipedia.org/wiki/HTML5)
+-   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+### Frameworks, Libraries & Programs Used
+
+1. [Google Fonts:](https://fonts.google.com/)
+    - Google fonts were used to import the 'Quintessential', 'Roboto Condensed' and 'Zen Kaku Gothic Antique' font into the style.css file which is used on all pages throughout the project.
+1. [Font Awesome:](https://fontawesome.com/)
+    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+1. [Git](https://git-scm.com/)
+    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+1. [GitHub:](https://github.com/)
+    - GitHub is used to store the projects code after being pushed from Git.
+1. [Balsamiq:](https://balsamiq.com/)
+    - Balsamiq was used to create the wireframes during the design process.
+
+## Testing
+The website has been tested on different devices and screen sizes, eg. 21.5inch monitor, 15in laptop screen, iPad and Android Devices. The website runs smoothly and generate appropriate results without any issues. The hover effect on information cards work properly on the computer, the links take you to appropriate pages and the submit button on the form page takes you to the form-dump page with proper message for submission displayed. The social media links in the footer opens the associated pages in new tab, as intended.
