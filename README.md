@@ -152,7 +152,7 @@ The project was deployed to GitHub Pages using the following steps...
 
 * ### Code
 
-The following code block used from [Stack Overflow](stackoverflow.com), answer given to following question on the given link:<br>
+The following code block used from [Stack Overflow](https://stackoverflow.com), answer given to following question on the given link:<br>
 [How to make body background image transparent in css? (sirdn4)](https://stackoverflow.com/questions/42312909/how-to-make-body-background-image-transparent-in-css/42313865)
 
 ```
