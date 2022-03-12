@@ -9,12 +9,23 @@ It also aims at providing an option to the visitors to book a guided tour for a 
 ![Image of Responsive Website in different devices](./assets/images-readme-file/amiresponsive.JPG)
 
 ## Features:
+
+   ### UI/UX:
+
+   - #### Colour Scheme
+      1. The two main colours used are Mardi Gras and Pomegranate Red.
+      2. The information card colors are Anti-Flash White and Light Gray to contrast the dark background of the webpage, while the text uses darker shade of gray to pop out.
+
+   - #### Typography
+      1.  The Zen Kaku Gothic Antique font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. The website header uses Roboto condensed font with sans-serif as backup and the semi-headings of the webpage and the information cards use Quintessential font with cursive as the backup font.
+      2. The Zen Kaku font gives the heading a very sober and decent appearance, while the Quintessential font for semi-headers provide a classic feel to the website, complimenting the onjctive of the webpage.
+      3. The body font of Roboto condensed is easy to read and is easy on eyes.
    
    ### Existing Features:
 
    1. #### Navigation Bar 
     
-       -   Along with the name of the website, the navigation bar includes the links to all the pages of the website, Home, Other Places and Book a Tour. This is featured   on all the pages of the website.
+       -   Along with the name of the website, the navigation bar includes the links to all the pages of the website, Home, Other Places and Book a Tour. This is featured on all the pages of the website.
        -   Through the navigation bar, the user can easily move around and take full advantage of all the features provided by the website.
 
         <br>
@@ -74,9 +85,9 @@ It also aims at providing an option to the visitors to book a guided tour for a 
         <br>
 
    7. #### Book a Tour
-        - For tourists/visitors who want to experience a more detalied and entertaining tour of the Red Fort, they can opt for a guided tour throu the form provided on this page.
-        - It's easy to fill and book, the users are notified with a confirmation message on a new page, and they can easily navigate back vis Home button provided below the message or through the navigation bar.
-        - For now, the form dump page is a dummy, and uses GET method instead of POST. It's just for the demo purposes.
+        - For tourists/visitors who want to experience a more detalied and entertaining tour of the Red Fort, they can opt for a guided tour through the form provided on this page.
+        - It's easy to fill and book, the users are notified with a confirmation message on a new page, and they can easily navigate back via Home button provided below the message or through the navigation bar.
+        - Clicking on the "Book!" button takes the users to a new page which is a form-dump page. For now, this page is a dummy, and uses GET method instead of POST. It's just for the demo purposes.
         <br>
         <img src="./assets/images-readme-file/form page.JPG">
         <br>
