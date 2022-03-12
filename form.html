@@ -10,6 +10,7 @@
     <title>Red Fort</title>
 </head>
 <body class="form-page">
+    <!----- The Navigation Bar and the Heading of The Webpage ------>
     <header>
         <h1>Red Fort</h1>
         <nav>
@@ -26,19 +27,23 @@
             </ul>
         </nav>
     </header>
+    <!------ Banner/Hero Image of the Webpage ------>
     <div id="banner-wrapper">
         <div id="banner-container">
         </div>
     </div>
+    <!------ MAIN BODY/CONTENT OF THE WEBPAGE ------>
     <section id="form-wrapper">
         <form action="form-landing.html" method="GET" id="tour-form">
             <h2>Book a Tour</h2>
+            <!------ Text Input Fields ------>
             <label for="fname">First Name</label>
             <input type="text" id="fname" class="form-input" name="first_name" required>
             <label for="lname">Last Name</label>
             <input type="text" name="last_name" id="lname" class="form-input" required>
             <label for="email">Email ID</label>
             <input type="email" id="email" name="email-id" class="form-input" required>
+            <!----- Drop Down Box for Group Size ------>
             <label for="group-size">Group Size</label>
             <select name="group-size" id="group-size" class="select-box">
                 <option value="" selected>Small (3 or less)</option>
@@ -46,6 +51,7 @@
                 <option value="">Large (11-20)</option>
                 <option value="">Field Trip (20+)</option>
             </select>
+            <!----- Grouped Section for the Dates ------>
             <fieldset id="dates-field">
                 <legend>Day of visit</legend>
                 <label for="date">Date</label>
@@ -55,14 +61,17 @@
                 <label for="year">Year</label>
                 <input type="text" name="year" id="year" class="dates" required>
             </fieldset>
+            <!------ Text Box for Other Queries ------->
             <label for="request">Other Queries:</label>
             <textarea name="other-requests" id="request" cols="50" rows="50" class="request-box"></textarea>
+            <!------ Form Buttons ------->
             <div id="button-box">
                 <input type="submit" value="Book!" class="button">
                 <input type="reset" value="Cancel" class="button">
             </div>
         </form>
     </section>
+    <!---------- FOOTER SECTION WITH SOCIAL MEDIA LINKS --------->
     <footer id="footer-wrapper">
         <div id="footer-div">
             <ul>
