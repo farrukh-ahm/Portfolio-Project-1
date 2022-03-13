@@ -4,7 +4,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-                /* GENERAL STYLING */
+                /* ------- GENERAL STYLING ------- */
 
 body {background-color: #161516;
       font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -20,7 +20,7 @@ h2 {font-family: 'Quintessential', cursive;
         padding-top: 10px;
 }
 
-                /* HEADER SECTION */
+                /* -------- HEADER SECTION ------ */
 header {width: 100%;
         height: 100px;
         position: relative;
@@ -63,7 +63,7 @@ h1 {color: #f44336;
 }
 
                         
-                        /* PAGE BANNER */
+                        /* ------- PAGE BANNER -------- */
 
 #banner-wrapper {width: 100%;
                  height: 700px;
@@ -89,9 +89,9 @@ h1 {color: #f44336;
               font-size: 120%;}
 
 
-                /* INDEX PAGE STYLING */
+                                    /* ----------- INDEX PAGE STYLING --------- */
 
-                /* history section */
+                /* ---- history section ---- */
 
 .content-wrapper{height: 43.75rem; /* 700px */
                  width: 100%;
@@ -146,7 +146,7 @@ h1 {color: #f44336;
 .line-space > p {line-height: 30px;}
 
 
-                        /* Architecture section */ 
+                        /* ----- Architecture section ----- */ 
 
 .mid-div {height: 500px;
         width: 50%;
@@ -166,7 +166,7 @@ h1 {color: #f44336;
 }
 
                         
-                         /* Location Section */
+                         /* ---- Location Section ---- */
 
 #visit-us {width: 100%;
            height: 500px;           
@@ -213,7 +213,7 @@ th {margin-bottom: 5px;
     color: #f5f5f5;
 }
 
-                                /* Map section */
+                                /* ---- Map section ---- */
 
 #map-wrapper {height: 300px;
               width: 100%;
@@ -226,7 +226,7 @@ th {margin-bottom: 5px;
       opacity: 0.8;
 }
 
-                                /* Footer */
+                                /* ---- Footer ---- */
 
 #footer-wrapper {width: 100%;
                  height: 100px;
@@ -257,7 +257,7 @@ th {margin-bottom: 5px;
 i {font-size: 200%;}
 
                                                 
-                                                /* OTHER PLACES PAGE */
+                                                /* ---------- OTHER PLACES PAGE ---------- */
 
 
 #places-to-visit {margin: 30px 0 0 0;
@@ -266,7 +266,7 @@ i {font-size: 200%;}
 }
 
 
-                                                /* FORM PAGE */
+                                                /* ------- FORM PAGE ------- */
 
 .form-page {position: relative;}
 
@@ -400,7 +400,7 @@ legend {margin: 20px 0 0 10px;
 
 
 
-                                        /* DUMMY FORM SUBMISSION PAGE */
+                                        /* ---------- DUMMY FORM SUBMISSION PAGE ---------- */
 
 #form-dump {width: 100%;
             height: 1200px;
@@ -449,14 +449,17 @@ h3 {margin-top: 30px;
 
 
 
-                                                /* MEDIA QUERIES */
+                                                /* ----------- MEDIA QUERIES --------- */
 
+/* media query for 1445px and lower screens */
 
 @media screen and (max-width: 1445px){
         .top-bottom-div {width: 70%;}
 
         .mid-div {width: 70%;}
 }
+
+/* media query for 1280px and lower screens */
 
 @media screen and (max-width: 1280px) {
 #banner-wrapper {height: 400px;
@@ -535,6 +538,7 @@ table {width: 45%;
 
 #submission-container {width: 80%;}
 
+/* media query for 800px and lower screens */
 
 @media screen and (max-width: 800px) {
 
@@ -619,10 +623,14 @@ th {line-height: 30px;
 
 .button {width: 70px;}
 
+/* media query for 580px and lower screens */
+
 @media screen and (max-width: 580px) {
         .top-bottom-div {height: 650px;}
         .mid-div {height: 650px;}
         }
+
+/*media query for 450px and lower screens */
 
 @media screen and (max-width: 450px) {
 
